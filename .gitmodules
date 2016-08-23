@@ -1,0 +1,3 @@
+[submodule "cpp/reference-embree"]
+	path = cpp/reference-embree
+	url = https://github.com/embree/embree.git
