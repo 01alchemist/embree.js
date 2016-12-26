@@ -1,0 +1,23 @@
+{
+  "name": "embree.js",
+  "version": "1.0.0",
+  "description": "Embree inspired ray tracing kernel for javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ../TurboScript/lib/tc.js src/embree.ts --turbo-js --out bin/embree.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01alchemist/embree.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/01alchemist/embree.js/issues"
+  },
+  "homepage": "https://github.com/01alchemist/embree.js#readme",
+  "devDependencies": {
+    "ts-node": "^1.7.2",
+    "typescript": "^2.1.4"
+  }
+}
